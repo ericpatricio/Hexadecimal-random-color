@@ -1,0 +1,67 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Acme', sans-serif;
+  width: 100%;
+  color: #000033;
+  text-transform: capitalize;
+}
+
+main {
+  min-height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+}
+
+.title-center {
+  background-color: #ccc;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  text-align: center;
+  align-items: center;
+  height: 4rem;
+  padding: 8px;  
+}
+
+.title-center h2 {
+  font-size: 1.8rem;
+  padding: 8px;
+  margin-bottom: 1rem;
+}
+
+.container {
+  background-color: none ;
+  text-align: center;
+}
+
+.container h3 {
+  background-color: #ccc;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 4px;  
+}
+
+.btn-content {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border: 1px solid #4973AB;
+  background-color: #4973AB;
+  border-radius: 4px;
+  color: #ccc;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-content:hover {
+  transform: scale(1.1);
+}
+
